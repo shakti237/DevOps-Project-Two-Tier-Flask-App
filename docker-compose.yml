@@ -7,6 +7,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: "root"
       MYSQL_DATABASE: "devops"
+      MYSQL_USER: "flaskuser"          # Add this
+      MYSQL_PASSWORD: "flaskpassword"  # Add this
     ports:
       - "3306:3306"
 
@@ -35,8 +37,8 @@ services:
 
     environment:
       - MYSQL_HOST=mysql
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=root
+      - MYSQL_USER=flaskuser          # Update this
+      - MYSQL_PASSWORD=flaskpassword  # Update this
       - MYSQL_DB=devops
 
     networks:
