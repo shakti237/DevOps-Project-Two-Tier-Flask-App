@@ -261,4 +261,5 @@ This ensures continuous integration and continuous deployment with minimal manua
 ![Workflow](diagrams/project_workflow.png)
 
 ### **Website Preview**
-![Website](diagrams/website.png)
+![Website Preview](diagrams/Website.png)
+
